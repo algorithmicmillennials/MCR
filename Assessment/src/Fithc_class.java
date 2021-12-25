@@ -25,7 +25,7 @@ public class Fithc_class {
 		{
 		case 1:
 			//some code
-			File ob = new File("C:\\Users\\Duy Dang\\Desktop\\"+First_file+"\\"+Second_file);
+			File ob = new File("C:\\Users\\Duy Dang\\Desktop\\"+First_file+"\\");
 			File array[] = ob.listFiles();
 			
 			for(int i=0;i<array.length;i++)
